@@ -1,0 +1,73 @@
+body {
+    background-color: blanchedalmond;
+}
+.btn-container {
+    width: 600px;
+    margin: 72px auto 24px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 16px;
+    height: 30vh;
+}
+
+.btn {
+    padding: 8px 24px;
+    display: block;
+    width: 150px;
+    background-color: rgb(145, 122, 23);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(194, 182, 72);
+}
+
+.results-container {
+    width: 100vw;
+    background-color: blanchedalmond;
+    font-size: 48px;
+    text-align: center;
+    color: rgb(145, 122, 23);
+    margin-bottom: 96px;
+}
+
+.score-container {
+    display: Flex;
+    font-size: 48px;
+    justify-content: space-between;
+    width: 600px;
+    margin: 0 auto;
+    color: rgb(145, 122, 23);
+    text-align: center;
+    line-height: 1.5;
+}
+
+.hidden {
+    display: none;
+}
+
+.restart {
+    margin: 48px auto;
+    padding: 8px 24px;
+    display: block;
+    width: 150px;
+    background-color: rgb(145, 122, 23);
+    border-radius: 5px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.restart:hover {
+    background-color: rgb(194, 182, 72);
+}
